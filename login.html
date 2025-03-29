@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>Login</title>
+</head>
+<body>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="https://sheetdb.io/api/v1/ybozwhi0xo3wj" method="post" id="sheetdb-form">
+			<h1>Create Account</h1>
+			
+			<span>Use your email for registration</span>
+			<input type="text" placeholder="Name" name="data[name]">
+			<input type="email" placeholder="Email" name="data[email]">
+			<input type="password" placeholder="Password" name="data[password]">
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="https://sheetdb.io/api/v1/ybozwhi0xo3wj" id="signin-form" method="get">
+			<h1>Sign in</h1>
+			
+			<input type="email" placeholder="Email" id="signin-email">
+			<input type="password" placeholder="Password" id="signin-password">
+			<button id="signin">Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Enter your personal details and start the journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+const signInForm = document.getElementById('signin-form');
+const signInButton1 = document.getElementById('signin');
+
+signUpButton.addEventListener('click', () => {
+	container.classList.add('right-panel-active');
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove('right-panel-active');
+});
+
+signInForm.addEventListener('submit', (event) => {
+	event.preventDefault();
+
+	// Retrieve entered credentials
+	const email = document.getElementById('signin-email').value;
+	const password = document.getElementById('signin-password').value;
+
+	// Perform credential validation (replace with your own logic)
+	const isValidCredentials = validateCredentials(email, password);
+
+	if (isValidCredentials) {
+		window.location.href = 'dash1.html';
+	} 
+});
+
+function validateCredentials(email, password) {
+  fetch("https://sheetdb.io/api/v1/ybozwhi0xo3wj", {
+    method: 'GET'
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const matchedUser = data.find((user) => user.email === email && user.password === password);
+      if (matchedUser) {
+        // Valid credentials
+        window.location.href = 'dash1.html';
+      }
+	  if(!matchedUser) {
+		alert('Invalid credentials');
+	  }
+    })
+}
+
+
+var form = document.getElementById('sheetdb-form');
+form.addEventListener('submit', (e) => {
+	e.preventDefault();
+	fetch(form.action, {
+		method: 'POST',
+		body: new FormData(document.getElementById('sheetdb-form')),
+	})
+		
+});
+</script>
+</body>
+</html>

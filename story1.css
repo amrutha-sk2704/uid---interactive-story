@@ -1,0 +1,439 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+}
+.banner{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('Akshaya\ Patra\ 1.jpg');
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.banner .story1{
+	position: absolute;
+	height:auto;
+	width:100%;
+	text-align: center;
+	font-family:Garamond, serif;
+	top:50%;
+	transform: translateY(-50%);
+}
+.banner .story1 h1{
+	font-size:90px;
+	font-weight:700;
+	letter-spacing: 2px;
+}
+.banner .story1 h2{
+	font-size:45px;
+	font-weight:500;
+	letter-spacing: 2px;
+	margin-top:-3%;
+}
+
+.sec2{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.sec2{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s1.jpg');
+	background-size:cover;
+	background-position:center;
+	background-blend-mode: darken;
+}
+
+.sec2 .st1{
+	position: absolute;
+	height:auto;
+	width:100%;
+	text-align: center;
+	font-family:Garamond, serif;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.sec2 .st1 h1{
+	font-size:75px;
+	font-weight:bolder;
+	letter-spacing: 2px;
+	font-family:Garamond, serif;
+
+}
+
+.sec2 .st1 p{
+	font-size:30px;
+	font-weight:100;
+	letter-spacing: 3px;
+    text-align: center;
+	font-family:Garamond, serif;
+}
+
+
+
+
+.sec4{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.sec4{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('forest.webp');
+	background-size:cover;
+	background-position:center;
+
+
+
+}
+
+.sec4 .st2{
+	position: absolute;
+	height:auto;
+	width:100%;
+	text-align: center;
+	font-family:Garamond, serif;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.sec4 .st2 h1{
+	font-size:75px;
+	font-weight:bolder;
+	letter-spacing: 2px;
+	font-family:Garamond, serif;
+
+}
+
+.sec4 .st2 p{
+	font-size:30px;
+	font-weight:100;
+	letter-spacing: 3px;
+    text-align: center;
+	font-family:Garamond, serif;
+}
+
+
+.sec6{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.sec6{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s3.jpg');
+	background-size:cover;
+	background-position:center;
+
+}
+
+.sec6 .st3{
+	position: absolute;
+	height:auto;
+	width:100%;
+	text-align: center;
+	font-family:Garamond, serif;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.sec6 .st3 h1{
+	font-size:75px;
+	font-weight:bolder;
+	letter-spacing: 2px;
+	font-family:Garamond, serif;
+
+}
+
+.sec6 .st3 p{
+	font-size:30px;
+	font-weight:100;
+	letter-spacing: 3px;
+    text-align: center;
+	font-family:Garamond, serif;
+}
+
+.sec8{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.sec8{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s4.jpg');
+	background-size:cover;
+	background-position:center;
+
+}
+
+.sec8 .st4{
+	position: absolute;
+	height:auto;
+	width:100%;
+	text-align: center;
+	font-family:Garamond, serif;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.sec8 .st4 h1{
+	font-size:75px;
+	font-weight:bolder;
+	letter-spacing: 2px;
+	font-family:Garamond, serif;
+
+}
+
+.sec8 .st4 p{
+	font-size:30px;
+	font-weight:100;
+	letter-spacing: 3px;
+    text-align: center;
+	font-family:Garamond, serif;
+}
+
+.sec10{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.sec10{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s5.jpg');
+	background-size:cover;
+	background-position:center;
+
+}
+
+.sec10 .st5{
+	position: absolute;
+	height:auto;
+	width:100%;
+	text-align: center;
+	font-family:Garamond, serif;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.sec10 .st5 h1{
+	font-size:75px;
+	font-weight:bolder;
+	letter-spacing: 2px;
+	font-family:Garamond, serif;
+
+}
+
+.sec10 .st5 p{
+	font-size:30px;
+	font-weight:100;
+	letter-spacing: 3px;
+    text-align: center;
+	font-family:Garamond, serif;
+}
+
+
+
+
+.sec12{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.sec12{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s6.jpg');
+	background-size:cover;
+	background-position:center;
+
+}
+
+.sec12 .st6{
+	position: absolute;
+	height:auto;
+	width:100%;
+	text-align: center;
+	font-family:Garamond, serif;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.sec12 .st6 h1{
+	font-size:75px;
+	font-weight:bolder;
+	letter-spacing: 2px;
+	font-family:Garamond, serif;
+
+}
+
+.sec12 .st6 p{
+	font-size:30px;
+	font-weight:100;
+	letter-spacing: 3px;
+    text-align: center;
+	font-family:Garamond, serif;
+}
+
+
+
+
+
+
+.sec14{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.sec14{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s7.jpg');
+	background-size:cover;
+	background-position:center;
+
+}
+
+.sec14 .st7{
+	position: absolute;
+	height:auto;
+	width:100%;
+	text-align: center;
+	font-family:Garamond, serif;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.sec14 .st7 h1{
+	font-size:75px;
+	font-weight:bolder;
+	letter-spacing: 2px;
+	font-family:Garamond, serif;
+
+}
+
+.sec14 .st7 p{
+	font-size:30px;
+	font-weight:100;
+	letter-spacing: 3px;
+    text-align: center;
+	font-family:Garamond, serif;
+}
+
+
+
+
+.sec16{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.sec16{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s8.jpg');
+	background-size:cover;
+	background-position:center;
+
+}
+
+.sec16 .st8{
+	position: absolute;
+	height:auto;
+	width:100%;
+	text-align: center;
+	font-family:Garamond, serif;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.sec16 .st8 h1{
+	font-size:75px;
+	font-weight:bolder;
+	letter-spacing: 2px;
+	font-family:Garamond, serif;
+
+}
+
+.sec16 .st8 p{
+	font-size:30px;
+	font-weight:100;
+	letter-spacing: 3px;
+    text-align: center;
+	font-family:Garamond, serif;
+}
+
+
+
+
+.sec18{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.sec18{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s10.jpg');
+	background-size:cover;
+	background-position:center;
+
+}
+
+.sec18 .st9{
+	position: absolute;
+	height:auto;
+	width:100%;
+	text-align: center;
+	font-family:Garamond, serif;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.sec18 .st9 h1{
+	font-size:75px;
+	font-weight:bolder;
+	letter-spacing: 2px;
+	font-family:Garamond, serif;
+
+}
+
+.sec18 .st9 p{
+	font-size:30px;
+	font-weight:100;
+	letter-spacing: 3px;
+    text-align: center;
+	font-family:Garamond, serif;
+}
+/* because it is below all clases with parallx to work properly */
+.parallax{
+		background-attachment: fixed; /* for all element with class parallax */
+}
+.next-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    background-color: #0f5c66;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+}

@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.pg1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(ar.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.title{
+        font-size: 7rem;
+        color: white;
+        text-shadow: 0 0 20px black;
+}
+
+.pg2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pic1.png);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+#main{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: bottom;
+    align-items: center;
+    text-shadow: 0 0 50px black;
+    font-weight: bold;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    text-shadow: 0 0 50px black;
+    font-weight: bold;
+}
+
+
+.pg3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pic3.png);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 48px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    opacity: 0.8;
+}
+
+.pg4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pic4.png);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.pg5{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pic5.png);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.pg6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pic6.png);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.pg7{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pic7.png);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.pg8{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pic8.png);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.pg9{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pic9.png);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+.next-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    background-color: #0f5c66;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+}

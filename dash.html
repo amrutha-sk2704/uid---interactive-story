@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="dash.css">
+    <link href="https;">
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="logo">📒PotBoiler</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Read</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><button class="btn" onclick="login()">Login</button></li>
+
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">Meet PotBoiler!<br>A whole new way of experiencing<br><em>Stories</em></h1>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">ABOUT US</h1>
+        <div id="pic">
+            <img src="potboiler.jpg" alt="">
+            <div id="intro">
+                <br>
+                <p>&nbsp;Storytelling is an essential part of human culture and has been used for centuries to convey ideas, &nbsp;emotions, 
+                    and experiences. PotBoiler provides a platform for individuals to share their stories with a &nbsp;wider 
+                    audience as well as readers to enjoy a bundle of stories,
+                     ensuring that narratives and experiences &nbsp;are preserved and passed down through generations. </p>
+                <br>
+                <p> &nbsp;It will help build communities of like-minded people, entertain the audience by narrating
+                     a wide range &nbsp;of stories and provides opportunities to aspiring writers and artists to help put up their 
+                     work on a larger &nbsp;platform.
+
+                </p>
+                <br>
+                <p> &nbsp;PotBoiler that comprises of stories from our great Indian Epics such as The Mahabharata and The &nbsp;Ramayana. These stories 
+                    will provide a pathway to preserve and share these epics with the world. This &nbsp;will help in maintaining a connection with the roots
+                     and historical identity of the Indian Culture.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="portfolio">
+        <h1 class="headings">Our Collection</h1>
+        <div class="gallery">
+            <img src="ashwathama.jpg" alt="" class="image" onclick="disp()"></a>
+            <img src="bird eye test.jpg" alt="" class="image" onclick="disp()"></a>
+            <img src="akshaya.jpg" alt="" class="image" onclick="disp()"></a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">Our Services</h1>
+        <div class="row">
+            <div class="box">
+                <h1 class="headings">✍🏻<br>Collab</h1>
+                <p>Provides a unique space for all young readers and writers to share their ideas and engage in activities provided by Potboiler.
+                    <br><br>
+                    Stories ranging from Epics, PotBoiler will not disappoint you!
+                </p>
+
+            </div>
+            <div class="box">
+                <h1 class="headings">☑<br>Quiz</h1>
+                <p>A whole new dimension added to your reading by providing a quiz at the end of each story to test your reading and memory skills.<br>
+                Read your story and engage in a fun-filled quiz and boost your score everytime you read a story!</p>
+
+            </div>
+            <div class="box">
+                <h1 class="headings">📮<br>Interact</h1>
+                <p>With two existing features already, we have a third and final one!<br>You can get to meet and interact with our authors by sending them a feeback
+                at the end of each story.<br> To meet them, just follow us up on our socials and address.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT ME</h1>
+        <form action="" class="form">
+            <input type="text" nam="name" class="input" placeholder="Enter Your Name:">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email:">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+
+    <section id="linksocial">
+        <div class="socialsimg">
+        <img src="socials.webp" usemap="#mymap">
+        <map name="mymap">
+            <area shape="rect" coords="2,61,99,158" href="https://www.facebook.com/theamarchitrakathastudio/" alt="Facebook" target="_blank">
+            <area shape="rect" coords="119,62,228,159" href="https://www.instagram.com/amarchitrakatha/?hl=en" alt="Linkedin" target="_blank">
+            <area shape="rect" coords="232,61,348,161" href="https://twitter.com/ACKComics" alt="Twitter" target="_blank">
+            <area shape="rect" coords="360,60,458,159" href="https://www.linkedin.com/company/amar-chitra-katha---india/?originalSubdomain=in" alt="Instagram" target="_blank">
+        </map>
+        </div>
+    </section>
+    <script>
+        function login() {
+            event.preventDefault();
+            window.location.href = "login.html";
+        }
+        function disp() {
+            event.preventDefault();
+            window.alert("Login to Read")
+            window.location.href ="login.html";
+        }
+    </script>
+</body>
+</html>

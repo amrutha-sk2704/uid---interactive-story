@@ -1,0 +1,122 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+}
+.banner{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s21.jpg');
+	background-position: center;
+	background-size: cover;
+	color:#fff;
+}
+.banner .info{
+	position: absolute;
+	height:auto;
+	width:100%;
+	text-align: center;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	top:50%;
+	transform: translateY(-50%);
+}
+.banner .info h1{
+	font-size:80px;
+	font-weight:700;
+	letter-spacing: 2px;
+}
+.banner .info h3{
+	font-size:45px;
+	font-weight:500;
+	letter-spacing: 2px;
+	margin-top:-4%;
+	margin-bottom: 70px;
+}
+
+p{
+	font-size:25px;
+	font-weight:400;
+	letter-spacing: 5px;
+    text-align: center;
+	margin: 100px 100px 100px 100px;											
+	letter-spacing: normal;	
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;	
+												
+}
+
+.banner .info p{
+	font-size:18px;
+	font-weight:400;
+	letter-spacing: 5px;
+    text-align: center;
+	margin: 0 50px 20px 50px;											
+	letter-spacing: normal;													
+}
+
+/* for all sections without parallax effect background image */
+.sec1,.sec3,.sec5,.sec7{
+	position: relative;
+	height:40vh;
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size:48px;
+	font-family: 'poppins',sans-serif;
+	font-weight:600;
+	text-transform: uppercase;
+}
+/* for all sections with parallax effect background image */
+.sec2,.sec4,.sec6,.sec8{
+	position: relative;
+	height:120vh;
+	width:100%;
+	display: flex;											
+	align-items: center;
+	justify-content: center;
+	font-size:25px;												
+	font-family: 'poppins',sans-serif;
+	font-weight:600;
+	color:#fff;
+}
+.sec2{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s20.jpg');
+	background-size:cover;
+	background-position:center;
+
+}
+.sec4{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s23.jpg');
+	background-size:cover;
+	background-position:center;
+
+}
+.sec6{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s22.jpeg');
+	background-size:cover;
+	background-position:center;
+
+}
+.sec8{
+	background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('s24.PNG');
+	background-size:cover;
+	background-position:center;
+
+}
+/* because it is below all clases with parallx to work properly */
+.parallax{
+		background-attachment: fixed; /* for all element with class parallax */
+}
+.next-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    background-color: #0f5c66;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+}
